@@ -28,8 +28,8 @@
     padding: 10px;
     background-color: lightblue;
     line-height: 30px;
-    display: flex; /* Set the website title to a flex container */
-    align-items: center; /* Vertically center the items */
+    display: flex; 
+    align-items: center; 
   }
   
   /* Adjust the avatar styles */
@@ -38,7 +38,7 @@
     height: 60px;
     border-radius: 50%;
     overflow: hidden;
-    margin-left: 10px; /* Move the avatar to the right of the h1 */
+    margin-left: 10px; 
   }
   
   .avatar img {
@@ -57,12 +57,12 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Display the list items in a flex container */
-    justify-content: flex-end; /* Align the items to the right */
+    display: flex; 
+    justify-content: flex-end; 
   }
   
   nav ul li {
-    margin-left: 20px; /* Add some space between the list items */
+    margin-left: 20px; 
   }
   
   nav a {
@@ -86,8 +86,8 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    flex-grow: 1; /* Allow main content to grow and push footer to the bottom */
-    min-height: calc(100vh - 180px); /* 100vh minus header and footer heights */
+    flex-grow: 1; 
+    min-height: calc(100vh - 180px); 
   }
   
   /* About Me section styles */
@@ -118,25 +118,25 @@
   .mainproject-container {
     max-width: 600px;
     text-align: center;
-    position: relative; /* Set the container to relative position */
+    position: relative; 
   }
   
   .mainproject-container h2 {
-    position: absolute; /* Set h2 to absolute position */
-    top: 50%; /* Center the h2 vertically */
-    left: 0%; /* Move the h2 further to the left to touch the border of the image */
-    transform: translateY(-50%); /* Adjust vertical centering */
+    position: absolute; 
+    top: 50%; 
+    left: 0%; 
+    transform: translateY(-50%); 
     background-color: lightblue;
-    padding: 5px; /* Reduce the horizontal padding to get closer to the border */
+    padding: 5px;
     margin: 0;
     border: 2px solid lightblue;
-    z-index: 1; /* Ensure h2 appears above the image */
+    z-index: 1;
   }
   
   .mainproject-container img {
     display: block;
-    width: 100%; /* Make the image fit its container width */
-    max-height: 300px; /* Limit the image height to 300px */
+    width: 100%; 
+    max-height: 300px; 
     border: 5px solid lightblue;
   }
   
@@ -149,11 +149,11 @@
   }
   
   .project-section {
-    position: relative; /* Set the container to relative position */
+    position: relative; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 30px; /* Add space between the images */
+    margin-right: 30px; 
   }
   
   .project-section img {
@@ -164,13 +164,58 @@
   }
   
   .project-section h2 {
-    position: absolute; /* Set h2 to absolute position */
-    top: 50%; /* Center the h2 vertically */
-    left: 0; /* Align the h2 to the left edge of the container */
-    transform: translateY(-50%); /* Adjust vertical centering */
-    background-color: lightblue; /* Set the background color of h2 */
-    padding: 5px 10px; /* Add padding to h2 */
-    margin: 0; /* Remove default margin */
-    border: 2px solid lightblue; /* Add a border to the h2 */
-    z-index: 1; /* Ensure h2 appears above the image */
+    position: absolute; 
+    top: 50%; 
+    left: 0; 
+    transform: translateY(-50%); 
+    background-color: lightblue; 
+    padding: 5px 10px; 
+    margin: 0; 
+    border: 2px solid lightblue; 
+    z-index: 1; 
+  }
+
+  /* Footer styles */
+footer {
+    background-color: #808080;
+    padding: 20px;
+    text-align: left;
+    color: #fff;
+  }
+  
+  .footer-container {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /
+    align-items: center;
+  }
+  
+  footer h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    border: 2px solid lightblue;
+    padding: 10px;
+    background-color: lightblue;
+    line-height: 30px;
+    margin: 0; 
+  }
+  
+  .contact-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline; 
+  }
+  
+  .contact-list li {
+    display: inline-block;
+    margin-right: 20px;
+    color: #0066cc;
+    border-bottom: 2px solid #0066cc;
+  }
+  
+  .contact-list li:last-child {
+    margin-right: 0;
   }
