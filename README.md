@@ -9,12 +9,14 @@ This portfolio page displays all my projects and includes a nav section to navig
 ## Installation
 
 This website can be acessed through the following link. 
-
+https://calmedduck.github.io/Portfolio-Page/
 
 
 ## Usage
 
 You can use the nav section and click on the links to take you to the following section of the page.
+
+![Alt Text](assets\images\screenshot.png)
 
 ## Credits
 
